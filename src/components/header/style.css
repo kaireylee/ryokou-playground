@@ -1,6 +1,21 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: black;
+.nav_item_left {
+  margin-left: 20%; 
 }
 
+.nav_item_right {
+  margin-right: 20%; 
+}
+
+.button {
+  border-radius: 2px !important;
+}
+
+.menu {
+  box-shadow: none !important; 
+  background: none !important;
+}
+
+.ui.menu .item:before {
+  background: none; 
+}
 /*# sourceMappingURL=style.css.map */

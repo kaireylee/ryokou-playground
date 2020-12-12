@@ -1,7 +1,28 @@
 $theme-color: #3D9970;
 $font-stack: Helvetica, sans-serif;
 
-body {
-    font: 100% $font-stack; 
-    color: black; 
+.nav {
+    position: relative; 
+    padding: 12px 0;
 }
+
+.signup_button {
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #0073b1;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: inherit;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    outline-width: 2px;
+    padding: 0 24px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+  }
